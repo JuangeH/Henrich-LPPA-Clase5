@@ -1,0 +1,156 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    background-color :darkgray;
+    height: 122vh;
+    font-weight: bold;
+    Letter-spacing: 2px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.main {
+    background-color: white;
+    height: auto;
+    width: 650px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    Left: 50%;
+    top: 60%;
+}
+
+.Left {
+    background-color: #fbb03b;
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+.Right {
+    width: 450px;
+    float: left;
+}
+
+.ImgProfile {
+    height: 180px;
+    width: 180px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    border: 10px solid #fbb03b;
+    box-shadow: 6px 7px 9px 5px #fbb03b73;
+}
+
+.ImgProfile img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.BOX-1 {
+    position: relative;
+}
+
+.Titulo {
+    background-color: #4d4d4d;
+    padding: 10px;
+    color: #fbb03b;
+    text-align: left;
+    padding-Left: 20px;
+    margin-right: -15px;
+}
+
+.Titulo::after {
+    content: ''; 
+    position: absolute;
+    width: 21px;
+    height: 18px;
+    background-color: #5a5959;
+    left: 191px;
+    top: 26px;
+    transform: rotate(56deg);
+    z-index: -1;
+}
+
+.p1 {
+    padding: 9px 10px;
+    font-size: 12px;
+}
+
+.icons1 {
+    font-size: 14px !important;
+    padding-right: 10px !important;
+    vertical-align: sub;
+}
+
+.Idm-container {
+    width: 90%;
+    background-color: #fbb03b;
+    margin: 0px 10px;
+}
+
+.Idm {
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+}
+
+.Español {
+    width: 100%;
+    background-color: white;
+}
+
+.Ingles {
+    width: 85%;
+    background-color: white;
+}
+
+.Portugués {
+    width: 40%;
+    background-color: white;
+}
+
+.Python {
+    width: 57%;
+    background-color: white;
+}
+
+.C {
+    width: 89%;
+    background-color: white;
+}
+
+.HTML {
+    width: 32%;
+    background-color: white;
+}
+
+.name-div {
+    padding: 86px 0px 60px 55px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.name-div h1 {
+    margin-bottom: 10px;
+}
+
+.BOX-2 {
+    padding: 0px 50px;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.icons2 {
+    vertical-align: bottom;
+    font-size: 21px !important;
+    color: #4d4d4d;
+}
+.ep {
+    font-size: small
+}
